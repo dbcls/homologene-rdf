@@ -1,1 +1,1 @@
-# homologene-rdf
+# HomoloGene RDF
