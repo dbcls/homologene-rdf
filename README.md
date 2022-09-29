@@ -20,3 +20,8 @@
   * Hirokazu Chiba
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
+
+## SPARQL examples
+
+* [orthologs.rq](https://github.com/dbcls/homologene-rdf/blob/main/sparql/ortholog.rq)
+* [paralogs.rq](https://github.com/dbcls/homologene-rdf/blob/main/sparql/paralog.rq)
