@@ -1,0 +1,18 @@
+# Get orthologs for a given NCBI Gene ID
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX orth: <http://purl.org/net/orth#>
+PREFIX ncbigene: <http://identifiers.org/ncbigene/>
+
+SELECT DISTINCT ?taxon ?ortholog ?ortholog_label
+WHERE {
+  VALUES ?query { ncbigene:34 }
+  ?query obo:RO_0002162 ?query_taxon .
+  ?group orth:inDataset <https://ncbi.nlm.nih.gov/homologene/> ;
+      orth:hasHomologousMember ?query , ?ortholog .
+  ?ortholog obo:RO_0002162 ?taxon ;
+      rdfs:label ?ortholog_label .
+  FILTER (?query_taxon != ?taxon)
+}
+ORDER BY ?taxon ?ortholog_label
