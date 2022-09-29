@@ -20,6 +20,8 @@
   * Hirokazu Chiba
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
+* Schema
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/schema.svg
 
 ## SPARQL examples
 
