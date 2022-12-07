@@ -1,0 +1,3 @@
+sparql:
+  description: Get clusters of orthologous genes
+  variables: [ ClusterOfOrthologs, gene ]
