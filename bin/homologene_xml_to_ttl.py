@@ -17,7 +17,7 @@ def main():
             caption = entry.find('HG-Entry_caption').text
             print(f"homologene:{hg_id} a orth:OrthologsCluster ;")
             print('    orth:inDataset <https://ncbi.nlm.nih.gov/homologene/> ;')
-            # print(f'    rdfs:label "{caption}" ;')
+            print(f'    rdfs:label "{caption}" ;')
             # print(entry.find('HG-Entry_version').text)
             # print(entry.find('HG-Entry_taxid').text)
             gene_ids = get_genes(entry.find('HG-Entry_genes'))
