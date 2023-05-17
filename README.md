@@ -16,6 +16,15 @@
 ./bin/homologene.py original/homologene.data > rdf/homologene.ttl
 ```
 
+* Creator
+  * Hirokazu Chiba
+* Turtle file
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
+* Schema
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf-config/schema.svg
+
+### 2023-05-17
+
 ```
 ./bin/homologene_xml_to_ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
 ```
@@ -23,7 +32,7 @@
 * Creator
   * Hirokazu Chiba
 * Turtle file
-  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-05-17.ttl
 * Schema
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf-config/schema.svg
 
