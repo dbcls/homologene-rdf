@@ -16,6 +16,10 @@
 ./bin/homologene.py original/homologene.data > rdf/homologene.ttl
 ```
 
+```
+./bin/homologene_xml_to_ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
+```
+
 * Creator
   * Hirokazu Chiba
 * Turtle file
