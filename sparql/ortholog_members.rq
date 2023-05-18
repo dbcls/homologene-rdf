@@ -1,0 +1,15 @@
+# Get ortholog group members for a given NCBI Gene ID
+
+PREFIX orth: <http://purl.org/net/orth#>
+PREFIX ncbigene: <http://identifiers.org/ncbigene/>
+
+SELECT ?taxid ?gene ?protein ?species_name
+WHERE {
+  VALUES ?query_gene { ncbigene:34 }
+  ?group a orth:OrthologsCluster ;
+         orth:inDataset <https://ncbi.nlm.nih.gov/homologene/> ;
+         orth:hasHomologousMember ?query_gene , ?gene .
+  ?gene obo:RO_0002162 ?taxid ;
+        sio:SIO_010078 ?protein .
+  ?taxid rdfs:label ?species_name .
+}
