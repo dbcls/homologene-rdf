@@ -1,0 +1,8 @@
+# Count ortholog groups in HomoloGene dataset
+PREFIX orth: <http://purl.org/net/orth#>
+
+SELECT (COUNT(DISTINCT ?group) AS ?count)
+WHERE {
+  ?group a orth:OrthologsCluster ;
+         orth:inDataset <https://ncbi.nlm.nih.gov/homologene/> .
+}
