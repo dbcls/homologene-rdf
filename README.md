@@ -13,7 +13,7 @@
 ## Created RDF
 
 ```
-./bin/homologene.py original/homologene.data > rdf/homologene.ttl
+./bin/homologene_2023-03-01.py original/homologene.data > rdf/homologene_2023-03-01.ttl
 ```
 
 * Creator
@@ -23,7 +23,7 @@
 * Issued
   * 2023-03-01	
 * Turtle file
-  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-03-01.ttl
 * Schema
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf-config/schema.svg
 
