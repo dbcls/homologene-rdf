@@ -18,6 +18,10 @@
 
 * Creator
   * Hirokazu Chiba
+* Version
+  * release_20230301
+* Issued
+  * 2023-03-01	
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene.ttl
 * Schema
@@ -29,8 +33,10 @@
 ./bin/homologene_xml_to_ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
 ```
 
-* Creator
-  * Hirokazu Chiba
+* Version
+  * release_20230517
+* Issued
+  * 2023-05-17
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-05-17.ttl
 * Schema
