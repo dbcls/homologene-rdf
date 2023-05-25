@@ -24,8 +24,6 @@
   * 2023-03-01	
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-03-01.ttl
-* Schema
-  * https://github.com/dbcls/homologene-rdf/blob/main/rdf-config/schema.svg
 
 ### 2023-05-17
 
