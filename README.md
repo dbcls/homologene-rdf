@@ -38,7 +38,7 @@
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-05-17.ttl
 * Schema
-  * https://raw.githubusercontent.com/dbcls/homologene-rdf/main/rdf-config/schema.svg
+  * https://raw.githubusercontent.com/dbcls/rdf-config/master/config/homologene/schema.svg
 
 ## SPARQL examples
 
