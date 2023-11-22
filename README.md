@@ -14,23 +14,10 @@
 
 ## Created RDF
 
-```
-./bin/homologene_2023-03-01.py original/homologene.data > rdf/homologene_2023-03-01.ttl
-```
-
-* Creator
-  * Hirokazu Chiba
-* Version
-  * release_20230301
-* Issued
-  * 2023-03-01	
-* Turtle file
-  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-03-01.ttl
-
 ### 2023-05-17
 
 ```
-./bin/homologene_xml_to_ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
+./bin/homologene.xml2ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
 ```
 
 * Version
@@ -41,6 +28,21 @@
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-05-17.ttl
 * Schema
   * https://raw.githubusercontent.com/dbcls/rdf-config/master/config/homologene/schema.svg
+
+### Previous version
+
+```
+./bin/homologene.data2ttl.py original/homologene.data > rdf/homologene_2023-03-01.ttl
+```
+
+* Creator
+  * Hirokazu Chiba
+* Version
+  * release_20230301
+* Issued
+  * 2023-03-01	
+* Turtle file
+  * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-03-01.ttl
 
 ## SPARQL examples
 
