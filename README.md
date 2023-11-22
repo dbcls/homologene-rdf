@@ -17,7 +17,9 @@
 ### 2023-05-17
 
 ```
-./bin/homologene.xml2ttl.py original/homologene.xml > rdf/homologene_2023-05-17.ttl
+$ curl -OR https://ftp.ncbi.nlm.nih.gov/pub/HomoloGene/build68/homologene.xml.gz
+$ gunzip homologene.xml.gz
+$ ./bin/homologene.xml2ttl.py homologene.xml > rdf/homologene_2023-05-17.ttl
 ```
 
 * Version
@@ -32,7 +34,7 @@
 ### Previous version
 
 ```
-./bin/homologene.data2ttl.py original/homologene.data > rdf/homologene_2023-03-01.ttl
+$ ./bin/homologene.data2ttl.py original/homologene.data > rdf/homologene_2023-03-01.ttl
 ```
 
 * Creator
