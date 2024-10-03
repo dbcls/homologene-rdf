@@ -28,6 +28,8 @@ $ ./bin/homologene.xml2ttl.py homologene.xml > rdf/homologene_2023-05-17.ttl
   * 2023-05-17
 * Turtle file
   * https://github.com/dbcls/homologene-rdf/blob/main/rdf/homologene_2023-05-17.ttl
+* RDF-config
+  * https://github.com/dbcls/rdf-config/tree/master/config/homologene
 * Schema
   * https://raw.githubusercontent.com/dbcls/rdf-config/master/config/homologene/schema.svg
 
